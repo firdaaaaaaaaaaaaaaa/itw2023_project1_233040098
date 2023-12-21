@@ -1,0 +1,428 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #101010;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8%;
+  padding-left: 8%;
+  background-color: #191919;
+  border-bottom: 1px solid brown;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: brown;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: brown;
+  transition: 0.5s;
+}
+
+.image {
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  transform: rotateY(180deg);
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 23%;
+  transform: translateX(20%);
+}
+
+.content {
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h4 {
+  color: #fcfcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 65px;
+  margin: 20px 0 20px;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.content a {
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.content a:hover {
+  background: transparent;
+  border: 2px solid brown;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #191919;
+}
+
+.about-me {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me img {
+  height: auto;
+  width: 430px;
+  border-radius: 10px;
+}
+
+.about-text {
+  width: 550px;
+}
+.about-text h2 {
+  color: white;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  border-bottom: 1px solid brown;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+
+.button {
+  background-color: brown;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.button :hover {
+  background-color: transparent;
+  border: 2px solid brown;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 270px;
+  padding: 20px 35px;
+  background: #141414;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid brown;
+}
+
+.card h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.skill {
+  background-color: black;
+  width: 100%;
+  padding: 100px 0;
+}
+.title h2 {
+  color: white;
+  font-size: 75px;
+  width: 100%;
+  margin-bottom: 30px auto;
+  text-align: center;
+}
+
+.skill-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skill-bar p {
+  text-align: left;
+}
+
+.skill-box {
+  text-align: right;
+  width: 100%;
+}
+
+.bentuk {
+  width: 50%;
+  background-color: brown;
+}
+
+.tekstur {
+  width: 60%;
+  background-color: brown;
+}
+
+.warna {
+  width: 80%;
+  background-color: brown;
+}
+
+.ngerusak {
+  width: 99%;
+  background-color: brown;
+}
+
+.gallery {
+  background-color: #101010;
+  width: 100%;
+}
+
+.gallery h2 {
+  color: white;
+  font-size: 75px;
+  width: 100%;
+  margin-bottom: 30% auto;
+  text-align: center;
+}
+
+.container {
+  width: 530px;
+  /* background-color: #101010; */
+  margin: auto;
+  padding: 20px;
+  /* box-shadow: 0 0 3px 3px rgba(0, 0, 0, 3); */
+  border-radius: 5px;
+}
+
+.gallery li {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid brown;
+  float: left;
+  margin-right: 45px;
+}
+
+.clear {
+  clear: both;
+}
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.8s;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 10);
+}
+
+.overlay img {
+  max-height: 100%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 5);
+}
+
+.overlay:target img {
+  animation: zoomandfade 1s;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: 180px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 20px;
+  padding: 5px;
+  opacity: 0;
+}
+
+.overlay:target .close {
+  animation: slidedownfade 0.5s 0.5s forwards;
+}
+
+@keyframes zoomandfade {
+  0% {
+    transform: scale(0);
+    opacity: o;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slidedownfade {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+.contact-me {
+  width: 100%;
+  padding: 100px 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-text h2 {
+  color: white;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-box {
+  color: white;
+}
+
+.contact-box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.contact {
+  width: 25%;
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+}
+
+.contact h4 {
+  color: brown;
+  padding-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(1) {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2) {
+  color: #fcfcfc;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
