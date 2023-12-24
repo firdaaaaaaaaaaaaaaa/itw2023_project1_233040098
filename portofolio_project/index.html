@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="home">
@@ -20,7 +20,7 @@
         <!-- <a href="#" class="btn">lihat</a> -->
       </nav>
       <div class="image">
-        <img src="img/Suga .jpg" alt="" />
+        <img src="img/Butterlfy.jpg" alt="" />
       </div>
       <div class="content" id="home">
         <h4>Hello, nama saya</h4>
@@ -38,7 +38,7 @@
           <p>Saya adalah salah satu mahasiswa unpas atau universitas pasundan yang 
             berasal dari Sulwesi Tenggara. Saya merupakan mahasiswa Fakultas Teknik jurusan Informatika.
             Fakutas Teknik sendiri terletak di Jl.Dr Setiabudi No.193 Bandung.</p>
-          <a href="#" class="button" >Contact Me</a>
+          <a href="#contact" class="button" >Contact Me</a>
         </div>
       </div>
     </section>
@@ -60,9 +60,9 @@
             <p>Memberi warna</p>
             <div class="skill-box">
               <div class="warna">80%</div>
-            <p>Ngerusak</p>
+            <p>Membuat abstraksi</p>
             <div class="skill-box">
-              <div class="ngerusak">99%</div>
+              <div class="abstraksi">60%</div>
             </div>
           </div>
         </div>
@@ -70,15 +70,16 @@
     </section>
     <section class="gallery" id="gallery">
       <h2>Gal<span>lery</span></h2>
-      <div class="container">
+      <!-- <div class="container"> -->
+      <div class="gallery">
         <ul class="gallery">
           <li>
             <a href="#gambar-1">
-              <img src="img/thumbs/s1.jpg" alt="" />
+              <img src="img/thumbs/G4 (2).jpeg" alt="" />
             </a>
             <div class="overlay" id="gambar-1">
-              <a href="#" class="close">X</a>
-              <img src="img/full/s1.jpg" alt="" />
+              <a href="#gallery" class="close">X</a>
+              <img src="img/full/G4.jpeg" alt="" />
             </div>
           </li>
           <li>
@@ -86,20 +87,19 @@
               <img src="img/thumbs/G1 (1).jpeg" alt="" />
             </a>
             <div class="overlay" id="gambar-2">
-              <a href="#" class="close">X</a>
-              <img src="img/full/G1 (1).jpeg" alt="" />
+              <a href="#gallery" class="close">X</a>
+              <img src="img/full/G1.jpeg" alt="" />
             </div>
           </li>
           <li>
             <a href="#gambar-3">
-              <img src="img/thumbs/s4.jpg" alt="" />
+              <img src="img/thumbs/G2 (1) (1).jpeg" alt="" />
             </a>
             <div class="overlay" id="gambar-3">
-              <a href="#" class="close">X</a>
-              <img src="img/full/s4.jpg" alt="" />
+              <a href="#gallery" class="close">X</a>
+              <img src="img/full/G2 (1).jpeg" alt="" />
             </div>
           </li>
-  
           <div class="clear"></div>
         </ul>
       </div> 
@@ -107,31 +107,30 @@
     <section class="contact-me" id="contact">
         <div class="contact-text">
             <h2>Contact <span>Me</span></h2>
-            <div class="contact-info">
-                <div class="contact-box">
-                    <div class="contact">
-                        <h4>Address</h4>
-                        <p>Jln. Dr SetiaBudi</p>
-                    </div>
-                    <div class="contact">
-                        <h4>Email</h4>
-                        <p>firdafaridatul27@gmail.com</p>
-                    </div>
-                    <div class="contact">
-                        <h4>Telp.</h4>
-                        <p>(082)347633959</p>
-                    </div>
-                    <div class="contact">
-                        <h4>Hp</h4>
-                        <p>+6223-4763-3959</p>
-                    </div>
-                </div>
+            <div class="contact-list">
+              <li><a href="#contact">firdafaridatul27@gmail.com</a></li>
+              <li><a href="#contact">082347633959</a></li>
+              <li><a href="#contact">@sxyzg_</a></li>
+            </div>
+            <div class="contact-form">
+              <form action="">
+                <input type="text" placeholder="Enter Your Name" required />
+                <input type="text" placeholder="Enter Your Email" required />
+                <input type="text" placeholder="Enter Your Subject" />
+                <textarea
+                  name=""
+                  id=""
+                  cols="40"
+                  rows="10"
+                  placeholder="Enter Your Massage"
+                ></textarea>
+                <input type="submit" value="submit" class="send" />
+              </form>
             </div>
         </div>
     </section>
     <footer>
-        <p>Firda Faridatul Fajriyanti</p>
-        <p>Fakultas Teknik <br>Informatika</p>
+        <p>@createbyfirda</p>
     </footer>
   </body>
 </html>
